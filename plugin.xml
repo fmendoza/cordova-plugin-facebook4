@@ -161,7 +161,7 @@
         </config-file>
 
         <!-- Bolts framework -->
-        <framework src="src/ios/Bolts.framework" custom="true" />
+        <framework src="Bolts" type="podspec" spec="~> 1.9" />
 
         <!-- Facebook framework -->
         <framework src="src/ios/FBSDKCoreKit.framework" custom="true" />
